@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Home - The Chaos Coordinator</title>
+    <title>Contact us - The Chaos Coordinator</title>
     <meta name="description" content="Rooted in Christian values, this blog offers encouragement, practical tips, and real-life wisdom for managing the everyday whirlwind of motherhood.">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;display=swap">
@@ -26,17 +26,41 @@
             </div>
         </div>
     </nav>
-    <header class="masthead" style="background: url(&quot;assets/img/pexels-photo-6129297.jpeg&quot;) top / contain no-repeat, #ffffff;">
+    <header class="masthead" style="background: rgb(255,255,255);">
         <div class="container">
-            <div class="row" style="background: url(&quot;assets/img/pexels-photo-1683975.jpeg&quot;) center no-repeat, #ffffff;">
+            <div class="row">
                 <div class="col-md-10 col-lg-8 position-relative mx-auto">
-                    <div class="site-heading">
-                        <h1 style="color: rgb(0,0,0);padding: 0px;font-size: 58px;position: relative;transform-origin: top;">The Chaos Coordinator</h1>
+                    <div class="site-heading" style="background: url(&quot;assets/img/photo-1613993995046-07bce4b0bfed-1.jpg&quot;);">
+                        <h1 style="font-size: 56px;color: var(--bs-dark);">Contact Me</h1><span class="subheading"></span>
                     </div>
                 </div>
             </div>
         </div>
     </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-lg-8 mx-auto">
+                <p>Like the kids in High School Musical, "we're all in this together"! Feel free to reach out to me using the form below, and I'll get back to you as soon as I can!</p>
+                <form id="contactForm" name="sentMessage">
+                    <div>
+                        <div class="mb-3 form-floating"><input class="form-control" type="text" id="name" required="" placeholder="Name"><label class="form-label" for="name">Name</label><small class="form-text text-danger help-block"></small></div>
+                    </div>
+                    <div>
+                        <div class="mb-3 form-floating"><input class="form-control" type="email" id="email" required="" placeholder="Email Address"><label class="form-label">Email Address</label><small class="form-text text-danger help-block"></small></div>
+                    </div>
+                    <div>
+                        <div class="mb-3 form-floating"><input class="form-control" type="tel" id="phone" required="" placeholder="Phone Number"><label class="form-label">Phone Number</label><small class="form-text text-danger help-block"></small></div>
+                    </div>
+                    <div>
+                        <div class="mb-3 form-floating"><textarea class="form-control" id="message" data-validation-required-message="Please enter a message." required="" placeholder="Message" style="height: 150px;"></textarea><label class="form-label">Message</label><small class="form-text text-danger help-block"></small></div>
+                    </div>
+                    <div id="success"></div>
+                    <div class="mb-3"><button class="btn btn-primary" id="sendMessageButton" type="submit">Send</button></div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <hr>
     <footer>
         <div class="container">
             <div class="row">
